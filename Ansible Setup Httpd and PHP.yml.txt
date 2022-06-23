@@ -33,3 +33,12 @@ Note: Valideate App Server 1 or 2 or 3
         name: httpd
         state: started
         enabled: yes
+        
+        
+        
+   Validate HTTP and PHP on install server with this command
+   
+   rpm -qa |grep http
+   rpm -qa |grep php
+   
+   
